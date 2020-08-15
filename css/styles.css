@@ -86,4 +86,54 @@ main .main-input input {
 
 main .main-input-container:hover {
   box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+  background-image: url("https://img.icons8.com/android/24/000000/search.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+}
+
+main .main-input .micro-icon {
+  background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  cursor: pointer; /* Esto es para que cuando yo pase el cursor encima de la imagen me ponga la manita de señalar*/
+}
+
+main .main-buttons {
+  width: 530px;
+  margin: 0 auto;
+}
+
+main .main-buttons div {
+  display: inline-block;
+}
+
+main .main-buttons button {
+  height: 36px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #5f6368;
+  border-radius: 4px;
+  padding: 0 16px;
+  margin: 11px 4px;
+  text-align: center;
+}
+
+main .main-buttons button:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #222222;
+}
+
+main .main-input .input {
+  text-align: center;
 }
